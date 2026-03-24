@@ -18,7 +18,12 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
+\usepackage{amssymb}
+\usepackage{fontawesome5}
+\usepackage{pifont}
 \input{glyphtounicode}
+
+\newcommand{\githubstars}[1]{[{\faGithubSquare}\,\ding{72}\,\textbf{#1}]}
 
 
 %----------FONT OPTIONS----------
@@ -148,7 +153,7 @@
       \resumeItemListStart
         \resumeItem{Conduct research on multi-robot/-session autonomous mapping in complex urban environments.}
         \resumeItem{Guide and supervise graduate and undergraduate students in research papers and thesis projects.}
-        \resumeItem{Maintainer of TEASER++ (2.1K $\bigstar$), Hydra (773 $\bigstar$), KISS-Matcher (643 $\bigstar$), VGGT-SLAM (882 $\bigstar$).}
+        \resumeItem{Maintainer of \href{https://github.com/MIT-SPARK/TEASER-plusplus}{TEASER++} \githubstars{2.1K}, \href{https://github.com/MIT-SPARK/Hydra}{Hydra} \githubstars{773}, \href{https://github.com/MIT-SPARK/KISS-Matcher}{KISS-Matcher} \githubstars{643}, \href{https://github.com/MIT-SPARK/VGGT-SLAM}{VGGT-SLAM} \githubstars{882}.}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -182,17 +187,17 @@
 \section{Selected Publications}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{KISS-Matcher} $|$ \emph{IEEE ICRA 2025}}{2025}
+          {\href{https://github.com/MIT-SPARK/KISS-Matcher}{\textbf{KISS-Matcher}} \githubstars{643} $|$ \emph{IEEE ICRA 2025}}{2025}
           \resumeItemListStart
             \resumeItem{H. Lim et al., ``KISS-Matcher: Fast and Robust Point Cloud Registration Revisited.''}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{VGGT-SLAM} $|$ \emph{NeurIPS 2025} (882 $\bigstar$)}{2025}
+          {\href{https://github.com/MIT-SPARK/VGGT-SLAM}{\textbf{VGGT-SLAM}} \githubstars{882} $|$ \emph{NeurIPS 2025}}{2025}
           \resumeItemListStart
             \resumeItem{D. Maggio, H. Lim, and L. Carlone, ``VGGT-SLAM: Dense RGB SLAM Optimized on the SL(4) Manifold.''}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{BUFFER-X} $|$ \emph{IEEE/CVF ICCV 2025} (243 $\bigstar$)}{2025}
+          {\href{https://github.com/MIT-SPARK/BUFFER-X}{\textbf{BUFFER-X}} \githubstars{243} $|$ \emph{IEEE/CVF ICCV 2025}}{2025}
           \resumeItemListStart
             \resumeItem{M. Seo, H. Lim et al., ``BUFFER-X: Towards Zero-Shot Point Cloud Registration in Diverse Scenes.''}
           \resumeItemListEnd
@@ -207,12 +212,12 @@
             \resumeItem{H. Lim et al., ``Quatro++: Robust Global Registration Exploiting Ground Segmentation for Loop Closing.''}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{Patchwork++} $|$ \emph{IEEE/RSJ IROS 2022} (842 $\bigstar$)}{2022}
+          {\href{https://github.com/url-kaist/patchwork-plusplus}{\textbf{Patchwork++}} \githubstars{842} $|$ \emph{IEEE/RSJ IROS 2022}}{2022}
           \resumeItemListStart
             \resumeItem{S. Lee, H. Lim, and H. Myung, ``Patchwork++: Fast and Robust Ground Segmentation.''}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{ERASOR} $|$ \emph{IEEE RA-L w/ ICRA 2021} (494 $\bigstar$)}{2021}
+          {\href{https://github.com/LimHyungTae/ERASOR}{\textbf{ERASOR}} \githubstars{494} $|$ \emph{IEEE RA-L w/ ICRA 2021}}{2021}
           \resumeItemListStart
             \resumeItem{H. Lim et al., ``ERASOR: Egocentric Ratio of Pseudo Occupancy-Based Dynamic Object Removal.''}
           \resumeItemListEnd
