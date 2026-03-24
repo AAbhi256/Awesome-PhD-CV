@@ -91,16 +91,23 @@ ______________________________________________________________________
 
 ## :pencil: Paper → Bullet Conversion Formula
 
-| Before (academic) | After (industry) |
+Use the **XYZ formula** for every bullet:
+
+> **Accomplished [X] as measured by [Y], by doing [Z].**
+
+| ❌ Bad | ✅ Good (XYZ) |
 |---|---|
-| "We propose a novel degeneracy-aware LiDAR-inertial odometry method" | "Developed a robust LiDAR-inertial SLAM system that maintains stable localization in geometrically sparse environments" |
-| "Our method achieves state-of-the-art on benchmark X" | "Achieved state-of-the-art accuracy on X with 10× speedup over prior methods" |
-| "Experiments demonstrate the effectiveness of our approach" | "Deployed and validated in real-world environments; adopted by 640+ robotics teams (GitHub stars)" |
+| "Worked on the SLAM team" | "Reduced localization failure rate by 40% in corridor environments, by implementing degeneracy-aware weighting in the LiDAR-inertial odometry pipeline" |
+| "We propose a novel degeneracy-aware LiDAR-inertial odometry method" | "Maintained stable localization in geometrically sparse environments (30% lower drift), by detecting and compensating for sensor degeneracy at runtime" |
+| "Our method achieves state-of-the-art on benchmark X" | "Achieved SOTA accuracy on benchmark X with 10× speedup over prior ICP-based methods, by redesigning the correspondence search pipeline" |
+| "Experiments demonstrate the effectiveness of our approach" | "Validated on 3+ robot platforms and adopted by 640+ teams (GitHub stars), by open-sourcing a production-ready C++ implementation" |
 
 **Rules:**
 - **Delete:** `novel`, `we propose`, `we present`, `we show`, `experiments demonstrate`
-- **Replace with:** `built`, `designed`, `deployed`, `developed`, `engineered`
-- **Add scale:** GitHub stars, team size, environment scale, latency numbers, dataset size
+- **Replace with:** `reduced`, `improved`, `achieved`, `built`, `designed`, `deployed`, `developed`, `engineered`
+- **Quantify everything.** If you cannot measure directly, estimate scope: `~90% reduction`, `3+ platforms`, `city-scale`, `1000+ hours of data`
+
+**Reference:** [FAANG Resume Guide](https://www.sweresume.app/articles/faang-resume-guide/) — covers section ordering, XYZ formula, and ATS tips for big tech applications.
 
 ______________________________________________________________________
 
