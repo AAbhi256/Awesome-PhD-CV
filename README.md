@@ -1,21 +1,28 @@
-# Awesome PhD CV Templates
+<div align="center">
 
-A curated collection of LaTeX CV/resume templates for PhD students, postdocs, and faculty applicants. Each format targets a different use case — pick the one that fits your needs.
+<h1>Awesome PhD CV Templates</h1>
 
-## Introduction
+<p><strong><em>LaTeX CV/resume templates for PhD students and researchers <br>—from ATS-optimized industry resumes to full academic CVs.</em></strong></p>
 
-Hey! I'm [Hyungtae Lim](https://limhyungtae.github.io/hyungtae-lim/), a robotics researcher who recently wrapped up a postdoc at MIT and just landed a job at [Zoox](https://zoox.com/).
+</div>
+
+______________________________________________________________________
+
+## :wave: Introduction
+
+Hey! I'm [Hyungtae Lim](https://limhyungtae.github.io/hyungtae-lim/), a robotics researcher who achived my Ph.D at [KAIST](https://urobot.kaist.ac.kr/) in South Korea, and recently wrapped up a postdoc at MIT, and just landed a job at a big tech company.
 
 While preparing my industry applications, I quickly realized there's a huge discrepancy between what a big tech company needs and what academia expects. An academic CV is long, publication-heavy, and formatted for a human reviewer who cares about your research story. An industry resume needs to survive an ATS filter first — and a lot of the LaTeX tricks we use in academic CVs (custom fonts, multi-column layouts, fancy glyphs) silently break those parsers before a recruiter ever sees your name.
 
 This repo collects the templates I used and adapted, organized by use case, so you don't have to figure that out the hard way.
 
-## Which Template Should I Use?
+______________________________________________________________________
 
+## :thinking: Which Template Should I Use?
 
 > **Targeting industry (including big tech)?** Use `jakes-format/` first. Big tech companies (Google, Meta, Amazon, Apple, Microsoft, etc.) route resumes through applicant tracking system (ATS) before a human ever reads them.
-Jake's format is plain pdfLaTeX with no custom fonts, no multi-column layout, and no special glyphs — all of which are common ATS failure points.
-If you prefer a denser, two-column layout and are confident the company accepts it, `deedy-format/` is a strong alternative.
+> Jake's format is plain pdfLaTeX with no custom fonts, no multi-column layout, and no special glyphs — all of which are common ATS failure points.
+> If you prefer a denser, two-column layout and are confident the company accepts it, `deedy-format/` is a strong alternative.
 >
 > **Applying for a PhD program or academic position?** Use `research-cv/` — it supports multi-page layouts, full publication lists, and the detailed academic history that faculty committees expect.
 
@@ -25,10 +32,9 @@ If you prefer a denser, two-column layout and are confident the company accepts 
 | **Jake's** | Industry SWE/internship applications | 1 | 1 | pdfLaTeX |
 | **Deedy** | Experienced tech professionals | 1 | 2 | XeLaTeX |
 
+______________________________________________________________________
 
----
-
-## Templates
+## :page_facing_up: Templates
 
 ### 1. Awesome-CV Format (`research-cv/`)
 
@@ -53,8 +59,6 @@ cd awesome-cv-format
 xelatex cv.tex
 ```
 
----
-
 ### 2. Jake's Format (`jakes-format/`)
 
 A clean, single-page resume template by [Jake Gutierrez](https://github.com/sb2nov/resume).
@@ -76,8 +80,6 @@ The most popular LaTeX resume template on the internet — widely used for **ind
 cd jakes-format
 pdflatex resume.tex
 ```
-
----
 
 ### 3. Deedy Format (`deedy-format/`)
 
@@ -101,9 +103,9 @@ cd deedy-format
 xelatex resume.tex
 ```
 
----
+______________________________________________________________________
 
-## License
+## :scroll: License
 
 - Awesome-CV: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (original by Claud D. Park)
 - Jake's Resume: [MIT License](https://opensource.org/licenses/MIT) (original by Jake Gutierrez, based on [sb2nov/resume](https://github.com/sb2nov/resume))
