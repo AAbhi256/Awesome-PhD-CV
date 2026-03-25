@@ -49,6 +49,8 @@ The biggest mistake PhD students make when applying to industry is submitting a 
 | Venue and novelty matter | Impact, scale, and real-world deployment matter |
 | Readers are domain experts | First reader is an ATS parser, then a recruiter, then an engineer |
 
+Another common mistake: **listing TA and academic service roles in Experience.** Industry hiring managers skip these — they are looking for engineering impact, not classroom administration. If you want to convey mentorship or leadership, fold it into a bullet under your main research role (e.g., *"Mentored 5+ graduate researchers, contributing to 4+ published papers"*).
+
 **The "Selected Projects" section is the most important thing to customize.** For every application, ask: *which of my projects is most relevant to this specific team's work?* An AV perception team wants to see detection/segmentation work. A mapping team wants SLAM/HD map work. Swap your projects accordingly — do not send the same resume everywhere.
 
 Open-source projects with GitHub stars are particularly powerful: they prove not just that you can build something, but that **others rely on your code** — which is exactly what production teams want to hire.
