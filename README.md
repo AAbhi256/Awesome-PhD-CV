@@ -27,7 +27,7 @@ ______________________________________________________________________
 <td width="180" valign="middle"><img src="https://github.com/user-attachments/assets/3ba18529-b929-44ff-a643-d83fc5d7999a" width="140" style="border-radius:8px"/></td>
 <td valign="middle">
 
-Hey! I'm [Hyungtae Lim](https://limhyungtae.github.io/hyungtae-lim/), a robotics researcher who studies SLAM/perception/scene understanding. I achived my Ph.D at [KAIST](https://urobot.kaist.ac.kr/) in South Korea, and recently wrapped up a postdoc at MIT, and just landed a job at a big tech company.
+Hey! I'm [Hyungtae Lim](https://limhyungtae.github.io/hyungtae-lim/), a robotics researcher who studies SLAM/perception/scene understanding. I achived my Ph.D at [KAIST](https://urobot.kaist.ac.kr/) in South Korea (advised by [Prof. Hyun Myung](https://urobot.kaist.ac.kr/url_teams/prof-hyunmyung/)), and recently wrapped up a postdoc at MIT (advised by Prof. [Luca Carlone](https://lucacarlone.mit.edu/)), and just landed a job at a big tech company.
 
 While preparing my industry applications, I quickly realized there's a huge discrepancy between what a big tech company needs and what academia expects. An academic CV is long, publication-heavy, and formatted for a human reviewer who cares about your research story. An industry resume needs to survive an ATS filter first — and a lot of the LaTeX tricks we use in academic CVs (custom fonts, multi-column layouts, fancy glyphs) silently break those parsers before a recruiter ever sees your name.
 
