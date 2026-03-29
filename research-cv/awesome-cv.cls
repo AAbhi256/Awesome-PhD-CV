@@ -882,6 +882,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\hyungtaelim}{\textbf{Hyungtae Lim}}
+\newcommand{\angrykoala}{\textbf{Abhinav Angirekula}}
 \newcommand{\underreview}{Under review.}
 \newcommand{\accepted}{Accepted. To appear.}
 \newcommand{\submitted}{Submitted.}
